@@ -1,0 +1,77 @@
+/*
+Theme Name: Office Master
+Theme URI: https://wordpresyard/
+Author: Akter Hussain
+Author URI: https://akterhussain/
+Description: Twenty Seventeen brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device.
+Version: 1.0
+
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+*/
+
+.navbar-default .navbar-nav > .current_page_item > a, .navbar-default .navbar-nav > .current_page_item > a:hover, .navbar-default .navbar-nav > .current_page_item > a:focus {
+	color: #fff;
+	background-color: #6BAAA8;
+}
+
+.current_page_item {
+	background: #74B9B9 !important;
+	color: white;
+}
+
+
+.services-group {
+	padding: 10px;
+	background: #061F20;
+	color: white;
+	width: 360px;
+	float: left;
+	margin: 10px 10px;
+}
+
+
+.label a {
+
+	color: #fff;
+
+}
+
+
+.screen-reader-text {
+	display: none;
+}
+
+
+.nav-links {
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.nav-links  .page-numbers {
+	width: 35px;
+	float: left;
+	display: block;
+	background: #fff;
+	line-height: 35px;
+	border-left: 1px solid #ddd;
+	text-align: center;
+}
+
+
+.nav-links  .page-numbers:first-child{
+	border-left: 0;
+}
+
+.page-numbers.current {
+	background: #428BCA;
+	color: #fff;
+}
+
+.pagination {
+	display: inline-block;
+	padding-left: 0;
+	margin: 20px 350px;
+	border-radius: 4px;
+}
